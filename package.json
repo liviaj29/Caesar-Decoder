@@ -1,0 +1,26 @@
+{
+
+    "name": "caesar-decoder",
+   
+    "source": "src/index.html",
+   
+    "scripts": {
+   
+      "start": "parcel",
+   
+      "build": "parcel build"
+   
+    },
+   
+    "dependencies": {
+   
+      "nanny-state": "^9.0.0"
+   
+    },
+   
+    "devDependencies": {
+   
+      "parcel": "latest"
+   
+    }
+  }
