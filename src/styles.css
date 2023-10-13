@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Rubik+Vinyl&family=Shadows+Into+Light&display=swap');
+
+:root {
+  --text: #bababa;
+  --background: #14141b;
+  --white: #e6e7e8;
+  --black: #232323;
+  --grey: #999;
+  --lightgrey: #b2b2b2;
+  --pink: #f40099;
+  --red: #c00;
+  --yellow: #f5e43c;
+  --green: #0c0;
+  --blue: #00f7f7;
+  --OGreen: #295539;
+  --FMauve: #9575cd;
+}
+
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  color: var(--text);
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background: var(--background);
+}
+
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+html {
+  background: var(--black);
+  font: 18px sans-serif;
+}
+
+.JOG {
+  font-family: Monoton, sans-serif;
+  letter-spacing: -0.04em;
+  color: var(--white);
+}
+
+.J {
+  color: var(--FMauve);
+}
+
+.G {
+  color: var(--OGreen);
+}
+
+h1.JOG{
+  font-size: 96px;
+}
+
+
+h1,
+h2 {
+  font-family: Monoton;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  text-align: center;
+  font-size: 48px;
+  color: var(--FMauve);
+  margin: 0;
+}
+
+h2 {
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  text-align: center;
+  font-size: 32px;
+  color: var(--OGreen);
+}
+
+button{
+  color: var(--white);  
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  vertical-align: text-bottom;
+  margin: 4px auto;
+  background: var(--FMauve);
+  border-radius: 16px;
+  font-weight: bold;
+  font-size: 16px;  
+  padding: 18px;
+  text-transform: uppercase;
+  min-width: 12em;
+}
+
+button:hover{
+  background: var(--OGreen);
+}
+
+footer {
+  border-top: var(--black) 1px dotted;
+  background: var(--background);
+  font-size: 0.86em;
+  margin: 20px 0 0;
+  padding: 20px 0 150px;
+  text-align: center;
+}
+
+a:link,a:visited{
+ color: var(--FMauve);
+}
+
+a:hover{
+  color: var(--OGreen);
+}
+
+textarea{
+  font-size: 1.4em;
+  background: var(--black);
+  border-radius: 8px;
+  border: none;
+  color: var(--white);
+  padding: 12px;
+  display: block;
+  margin: 20px auto;
+  width: 100%;
+  max-width: 28em;
+  height: 6em;
+}
+
+#plainText{
+  color: var(--white);
+  width: 20em;
+  font-size: 2.4rem;
+  word-wrap: break-word;
+  margin: 0 auto;
+  text-transform: lowercase;
+}
